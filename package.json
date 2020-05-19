@@ -1,27 +1,20 @@
 {
-  "name": "js-in-3hrs-full",
+  "name": "Javascriptone",
   "version": "1.0.0",
-  "description": "bit.ly/lhl-js",
-  "main": "server-last.js",
+  "description": "Chat app created by Andrew Lloyd",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jugonzal/js-in-3hrs.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jugonzal/js-in-3hrs/issues"
-  },
-  "homepage": "https://github.com/jugonzal/js-in-3hrs#readme",
   "dependencies": {
-    "express": "^4.15.4",
-    "http": "0.0.0",
-    "request": "^2.83.0",
-    "socket.io": "^2.0.3"
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "engines": {
+    "node": "14.2.0"
   }
 }
